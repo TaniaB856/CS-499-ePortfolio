@@ -1,0 +1,92 @@
+<div id="background">
+	<div id="page">
+
+		<div id="header">
+			<div id="logo">
+				<a href="/">
+					<img src="/images/logo.png" alt="Travlr Getaways" height="100" width="200">
+				</a>
+			</div>
+
+			<div id="navigation">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/travel">Travel</a></li>
+					<li class="selected"><a href="/login">Login</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="contents">
+			<div class="box">
+				<div>
+					<div class="body">
+
+						<h1>Administrator Login</h1>
+
+						<p>
+							Sign in to manage travel destinations, update trip
+							information, and maintain the Travlr Getaways website.
+						</p>
+
+						<form method="post" action="/api/login">
+							<table>
+								<tbody>
+									<tr>
+										<td>Email:</td>
+										<td>
+											<input
+												type="email"
+												name="email"
+												class="txtfield"
+												required
+											>
+										</td>
+									</tr>
+
+									<tr>
+										<td>Password:</td>
+										<td>
+											<input
+												type="password"
+												name="password"
+												class="txtfield"
+												required
+											>
+										</td>
+									</tr>
+
+									<tr>
+										<td></td>
+										<td>
+											<button type="submit" class="btn">
+												Login
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<div>
+			<ul class="navigation">
+				<li><a href="/">Home</a></li>
+				<li><a href="/travel">Travel</a></li>
+				<li class="active"><a href="/login">Login</a></li>
+			</ul>
+		</div>
+
+		<p>
+			© 2026 Travlr Getaways. Full-Stack Web Application by
+			Tania Boursiquot.
+		</p>
+	</div>
+</div>

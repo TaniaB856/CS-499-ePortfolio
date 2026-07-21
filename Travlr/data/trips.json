@@ -1,0 +1,32 @@
+[
+  {
+    "code": "GAL123",
+    "name": "Gale Reef",
+    "length": "4 nights / 5 days",
+    "start": "2026-06-01T00:00:00.000Z",
+    "resort": "Emerald Bay, 3 stars",
+    "perPerson": "799.00",
+    "image": "reef1.jpg",
+    "description": "Gale Reef is a beautiful coral reef destination."
+  },
+  {
+    "code": "DAW456",
+    "name": "Dawson's Reef",
+    "length": "4 nights / 5 days",
+    "start": "2026-07-01T00:00:00.000Z",
+    "resort": "Blue Lagoon, 4 stars",
+    "perPerson": "1199.00",
+    "image": "reef2.jpg",
+    "description": "Dawson's Reef offers stunning underwater views."
+  },
+  {
+    "code": "CLA789",
+    "name": "Claire's Reef",
+    "length": "4 nights / 5 days",
+    "start": "2026-08-01T00:00:00.000Z",
+    "resort": "Coral Sands, 5 stars",
+    "perPerson": "1999.00",
+    "image": "reef3.jpg",
+    "description": "Claire's Reef is known for its colorful marine life."
+  }
+]
