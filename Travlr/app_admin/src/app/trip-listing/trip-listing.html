@@ -1,0 +1,29 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6 mb-3" *ngFor="let trip of trips">
+      
+      <div class="card">
+        <img 
+          class="card-img-top" 
+          [src]="'assets/images/' + trip.image" 
+          alt="{{ trip.name }}"
+        >
+
+        <div class="card-body">
+          <h5 class="card-title">{{ trip.name }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ trip.resort }}</h6>
+
+          <p class="card-text">
+            {{ trip.length }} only ${{ trip.perPerson }} per person
+          </p>
+
+          <p class="card-text">
+            {{ trip.description }}
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
